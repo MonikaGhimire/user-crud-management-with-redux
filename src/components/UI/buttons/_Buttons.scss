@@ -1,0 +1,56 @@
+@import '../../../utilities/variables';
+
+.Button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: $padding;
+    margin: $margin;
+    font-weight: bold;
+    transform: translate(600px, -40px);
+    margin-bottom: -20px;
+}
+
+@media (min-width: 300px) {
+    .Button {
+        transform: translate(180px, -40px);
+    }
+}
+
+@media (min-width: 500px) {
+    .Button {
+        transform: translate(200px, -40px);
+    }
+}
+
+@media (min-width: 640px) {
+    .Button {
+        transform: translate(300px, -40px);
+    }
+}
+
+@media (min-width: 840px) {
+    .Button {
+        transform: translate(400px, -40px);
+    }
+}
+
+@media (min-width: 1024px) {
+    .Button {
+        transform: translate(460px, -40px);
+    }
+}
+
+@media (min-width: 1100px) {
+    .Button {
+        transform: translate(480px, -40px);
+    }
+}
+
+@media (min-width: 1200px) {
+    .Button {
+        transform: translate(650px, -40px);
+    }
+}
+
