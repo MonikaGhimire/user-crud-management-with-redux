@@ -5,7 +5,7 @@ It is a simple user management project which has the functionalities to create, 
 - CSS3
 - SASS
 - React.js
-- redux.js
+- Redux
 - redux-thunk
 - Bootstrap
 
